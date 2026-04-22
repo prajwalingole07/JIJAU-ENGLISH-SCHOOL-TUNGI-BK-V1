@@ -1,0 +1,20 @@
+{
+  "apphosting": {
+    "backendId": "studio",
+    "ignore": [
+      "node_modules",
+      ".git",
+      ".agents",
+      ".idx",
+      "firebase-debug.log",
+      "firebase-debug.*.log",
+      "functions"
+    ]
+  },
+  "firestore": {
+    "database": "(default)",
+    "location": "asia-south1",
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  }
+}
